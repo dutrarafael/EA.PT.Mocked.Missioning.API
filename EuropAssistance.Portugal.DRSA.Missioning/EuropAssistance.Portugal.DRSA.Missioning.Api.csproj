@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>EuropAssistance.Portugal.DRSA.Missioning.Api</AssemblyName>
+    <RootNamespace>EuropAssistance.Portugal.DRSA.Missioning.Api</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="4.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="4.2.0" />
+    <PackageReference Include="NJsonSchema" Version="10.3.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.6.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.6.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EuropAssistance.Portugal.DRSA.Missioning.Data\EuropAssistance.Portugal.DRSA.Missioning.Models.csproj" />
+    <ProjectReference Include="..\EuropAssistance.Portugal.DRSA.Missioning.Service\EuropAssistance.Portugal.DRSA.Missioning.Service.csproj" />
+  </ItemGroup>
+
+
+</Project>
